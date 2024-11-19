@@ -10,6 +10,8 @@ main {
 }
 
 .Card {
+  display: flex;
+  flex-direction: column;
   border: solid 3px black;
   padding: 5px 170px 60px 25px;
   border-radius: 5%;
