@@ -11,12 +11,18 @@ main {
 
 .Card {
   display: flex;
-  flex-direction: column;
   border: solid 3px black;
-  padding: 5px 170px 60px 25px;
+  padding: 5px 70px 50px 25px;
   border-radius: 5%;
 }
 
+.CardDirection {
+  display: flex;
+  flex-direction: column;
+}
+
 .CardImage {
-  height: 60px;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 90px;
 }
