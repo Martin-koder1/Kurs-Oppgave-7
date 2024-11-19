@@ -1,3 +1,20 @@
 body {
   margin: 0;
 }
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  border: solid 3px black;
+  padding: 5px 170px 60px 25px;
+  border-radius: 5%;
+}
+
+.CardImage {
+  height: 60px;
+}
