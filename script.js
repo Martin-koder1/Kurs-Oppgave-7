@@ -1,9 +1,14 @@
-let input = document.querySelector('#TextBox');
+const input = document.querySelector('#input');
+const parent = document.querySelector('#div');
 
-input.addEventListener('keydown', function (event) {
-    if (event.key === 'Enter') {
-      let newInput = document.createElement('p');
-      newInput.textContent = 'Name Logged';
-      parent.appendChild(newInput);
-    }
-  });
+function addElement(event) {
+  const newElement = document.createElement('p');
+  newElement.textContent = input.value;
+
+  if (event.key === "Enter") {
+    console.log('Trykket enter');
+    parent.appendChild(newElement)
+  }
+}
+
+input.addEventListener('keyup', addElement);
