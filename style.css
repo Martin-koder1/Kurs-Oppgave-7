@@ -21,6 +21,15 @@ main {
   flex-direction: column;
 }
 
+h1 {
+  font-weight: bolder;
+}
+
+p {
+  margin: 0;
+  font-size: large;
+}
+
 .CardImage {
   height: 100px;
   padding-top: 50px;
