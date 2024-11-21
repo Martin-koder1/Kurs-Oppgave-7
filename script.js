@@ -7,7 +7,7 @@ function addElement(event) {
 
   if (event.key === "Enter") {
     console.log('Trykket enter');
-    parent.insertBefore(newElement, input);
+    parent.appendChild(newElement, input);
     input.remove();
   }
 }

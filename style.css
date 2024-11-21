@@ -7,6 +7,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: lightgray;
 }
 
 .Card {
@@ -14,6 +15,7 @@ main {
   border: solid 3px black;
   padding: 5px 70px 50px 25px;
   border-radius: 5%;
+  background-color: white;
 }
 
 .CardDirection {
